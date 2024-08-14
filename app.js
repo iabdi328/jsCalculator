@@ -100,17 +100,26 @@ main.addEventListener("click", (e) => {
 
 
 function add (num1, num2){
+    firstNumber = Number(num1) + Number(num2);
+    operation = ""
+    secondNumber = ""
     return Number(num1) + Number(num2);
 };
 
 
 function subtract (num1, num2){
+    firstNumber = Number(num1) - Number(num2);
+    operation = ""
+    secondNumber = ""
     return Number(num1) - Number(num2);
 };
 
 
 
 function multiply (num1, num2){
+    firstNumber = Number(num1) * Number(num2);
+    operation = ""
+    secondNumber = ""
     return Number(num1) * Number(num2);
 };
 
@@ -120,5 +129,8 @@ function divide (num1, num2){
     if (Number(num2) === 0){
         return "Error"
     }
+    firstNumber = Number(num1) / Number(num2);
+    operation = ""
+    secondNumber = ""
     return Number(num1) / Number(num2);
 };
