@@ -79,7 +79,7 @@ main.addEventListener("click", (e) => {
                     updateDisplay(add(firstNumber, secondNumber))
                 }
                 else if (operation == "-"){
-                    updateDisplay(sub(firstNumber, secondNumber))
+                    updateDisplay(subtract(firstNumber, secondNumber))
                 }
                 else if (operation == "*"){
                     updateDisplay(multiply(firstNumber, secondNumber))
